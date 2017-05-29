@@ -34,6 +34,8 @@ h2{
 .main-header #logo{
 	margin:10px 0;
 	width:45%;
+transition: width 2 s;
+display: block;
 }
 
 .main-header .main-nav{
@@ -74,6 +76,7 @@ h2{
 	overflow:auto;
 	width:70%;
 	float:left;
+	transition: width 1 s;
 }
 
 #content article {
@@ -129,4 +132,166 @@ footer p {
 	margin:0;
 	padding: 10px 0 0 0;
 	text-align: center;
+}
+
+/*Tablet/iPads (Portrait and Landscape)*/
+
+@media only screen end (min-width: 768px) and (max-width: 960px) {
+	
+	#container {
+		width: 95%;
+	}
+
+	.main-header img#logo {
+		margin: auto;
+		display: block;
+		width: 65%;
+		transition: width 2 s;
+
+	}
+
+	.main-header .main-nav {
+		display: block;
+		transition: height 1s;
+	}
+
+	#content {
+		width:100%;
+		float:none;
+		transition: width 1 s;
+	}
+
+	#sidebar {
+		width:100%;
+		float:none;
+	}
+
+	#sidebar .block {
+		margin-left: 0;
+	}
+}
+
+/*Smaller Tablets (Portrait and Landscape)*/
+
+@media only screen end (min-width: 569px) and (max-width: 767px) {
+
+	#container {
+		width: 95%;
+	}
+
+	.main-header img#logo {
+		margin: auto;
+		display: block;
+		width: 65%;
+
+	}
+
+	.main-header .main-nav{
+		display: block;
+		height: auto;
+		overflow: hidden;
+		width: 99%;
+		transition: 1s;
+	}
+
+	.main-header .main-nav ul{
+		padding: 2% 1%;
+		text-align: center;
+		width: 98%
+	}
+
+	.main-header .main-nav li {
+		float: none;
+		display: block;
+		margin-right: 0;
+		width:100%;
+		border-bottom: 1px solid #83293b;
+	
+	}
+
+	.main-header .main-nav li a{
+		margin-bottom:2px;
+		text-align: center;
+	}
+
+	.main-header .main-nav li a:hover. .main-header .main-nav li a.active {
+		display: block;
+	}
+		
+	#content {
+		width:100%;
+		float:none;
+	}
+
+	#sidebar {
+		width:100%;
+		float:none;
+	}
+
+	#sidebar .block {
+		margin-left: 0;
+	}
+
+}
+
+/*Smartphones (Portrait and Landscape)*/
+
+@media only screen end (min-width: 569px) and (max-width: 767px) {
+
+	#container {
+		width: 95%;
+	}
+
+	.main-header img#logo {
+		margin: auto;
+		display: block;
+		width: 95%;
+
+	}
+
+	.main-header .main-nav{
+		display: block;
+		height: auto;
+		overflow: hidden;
+		width: 99%;
+	}
+
+	.main-header .main-nav ul{
+		padding: 2% 1%;
+		text-align: center;
+		width: 98%
+	}
+
+	.main-header .main-nav li {
+		float: none;
+		display: block;
+		margin-right: 0;
+		width:100%;
+		border-bottom: 1px solid #83293b;
+	
+	}
+
+	.main-header .main-nav li a{
+		margin-bottom:2px;
+		text-align: center;
+	}
+
+	.main-header .main-nav li a:hover. .main-header .main-nav li a.active {
+		display: block;
+	}
+		
+	#content {
+		width:100%;
+		float:none;
+	}
+
+	#sidebar {
+		width:100%;
+		float:none;
+	}
+
+	#sidebar .block {
+		margin-left: 0;
+	}
+
 }
