@@ -188,7 +188,7 @@ footer p {
 
 	.main-header .main-nav{
 		display: block;
-		height: auto;
+		height: 80px;
 		overflow: hidden;
 		width: 99%;
 		transition: 1s;
@@ -251,7 +251,7 @@ footer p {
 
 	.main-header .main-nav{
 		display: block;
-		height: auto;
+		height: 80px;
 		overflow: hidden;
 		width: 99%;
 	}
