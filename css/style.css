@@ -34,8 +34,8 @@ h2{
 .main-header #logo{
 	margin:10px 0;
 	width:45%;
-    transition: width 2 s;
-    display: block;
+   	transition: width 2 s;
+    	display: block;
 }
 
 .main-header .main-nav{
@@ -187,7 +187,7 @@ footer p {
 	}
 
 	.main-header .main-nav{
-        background: #882433;
+        	background: #882433;
 		display: block;
 		height: auto;
 		overflow: hidden;
@@ -225,7 +225,7 @@ footer p {
 	}
 
 	#sidebar {
-        margin-top:25px;
+        	margin-top:25px;
 		width:100%;
 		float:none;
 	}
@@ -288,7 +288,7 @@ footer p {
 	}
 
 	#sidebar {
-        margin-top:25px;
+        	margin-top:25px;
 		width:100%;
 		float:none;
 	}
