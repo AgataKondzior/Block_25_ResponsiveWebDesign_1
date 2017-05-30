@@ -34,8 +34,8 @@ h2{
 .main-header #logo{
 	margin:10px 0;
 	width:45%;
-transition: width 2 s;
-display: block;
+    transition: width 2 s;
+    display: block;
 }
 
 .main-header .main-nav{
@@ -136,13 +136,13 @@ footer p {
 
 /*Tablet/iPads (Portrait and Landscape)*/
 
-@media only screen end (min-width: 768px) and (max-width: 960px) {
+@media only screen and (min-width: 768px) and (max-width: 960px) {
 	
 	#container {
 		width: 95%;
 	}
 
-	.main-header img#logo {
+	.main-header img #logo {
 		margin: auto;
 		display: block;
 		width: 65%;
@@ -173,7 +173,7 @@ footer p {
 
 /*Smaller Tablets (Portrait and Landscape)*/
 
-@media only screen end (min-width: 569px) and (max-width: 767px) {
+@media only screen and (min-width: 569px) and (max-width: 767px) {
 
 	#container {
 		width: 95%;
@@ -187,8 +187,9 @@ footer p {
 	}
 
 	.main-header .main-nav{
+        background: #882433;
 		display: block;
-		height: 80px;
+		height: auto;
 		overflow: hidden;
 		width: 99%;
 		transition: 1s;
@@ -214,7 +215,7 @@ footer p {
 		text-align: center;
 	}
 
-	.main-header .main-nav li a:hover. .main-header .main-nav li a.active {
+	.main-header .main-nav li a:hover, .main-header .main-nav li a.active {
 		display: block;
 	}
 		
@@ -224,6 +225,7 @@ footer p {
 	}
 
 	#sidebar {
+        margin-top:25px;
 		width:100%;
 		float:none;
 	}
@@ -236,7 +238,7 @@ footer p {
 
 /*Smartphones (Portrait and Landscape)*/
 
-@media only screen end (min-width: 569px) and (max-width: 767px) {
+@media only screen and (min-width: 240px) and (max-width: 568px) {
 
 	#container {
 		width: 95%;
@@ -251,7 +253,7 @@ footer p {
 
 	.main-header .main-nav{
 		display: block;
-		height: 80px;
+		height: auto;
 		overflow: hidden;
 		width: 99%;
 	}
@@ -276,7 +278,7 @@ footer p {
 		text-align: center;
 	}
 
-	.main-header .main-nav li a:hover. .main-header .main-nav li a.active {
+	.main-header .main-nav li a:hover, .main-header .main-nav li a.active {
 		display: block;
 	}
 		
@@ -286,6 +288,7 @@ footer p {
 	}
 
 	#sidebar {
+        margin-top:25px;
 		width:100%;
 		float:none;
 	}
